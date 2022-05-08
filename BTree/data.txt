@@ -1,0 +1,28 @@
+Tree visualisation:
+
+ { 21 35 42 51 60 } - root
+{ 2 6 10 12 16 19 } - node
+{ 24 25 27 31 32 } - node
+{ 39 40 42 } - node
+{ 45 48 48 50 } - node
+{ 54 58 60 60 } - node
+{ 60 61 66 } - node
+
+
+Array containing the values of the element search time measurements in some of 50 created trees with degree = 5
+
+[1500, 1200, 1000, 1500, 1100, 900, 1000, 1200, 1300, 2100, 900, 700, 1300, 1600, 800, 600, 600, 700, 800, 600, 500, 600, 600, 600, 500, 700, 700, 600, 900, 700, 1000, 600, 1600, 800, 700, 1400, 600, 600, 600, 500, 600, 500, 600, 1000, 500, 400, 700, 600, 600, 500]
+Sum = 42200 nanoseconds
+
+Array containing the values of the element delete time measurements in some of 50 created trees with degree = 5
+
+[18100, 6700, 15900, 7500, 10700, 7000, 4800, 3900, 3800, 3800, 4500, 4300, 3900, 3800, 3600, 3300, 4200, 5100, 4200, 3800, 3800, 3900, 3800, 3700, 13500, 3600, 3600, 4500, 3400, 3100, 3000, 3300, 3100, 1700, 4300, 3800, 3800, 3800, 3600, 3500, 3300, 3300, 4200, 3200, 3300, 3300, 3800, 3300, 3000, 3200]
+Sum = 237600 nanoseconds
+
+Array containing the values of the element insert time measurements in some of 50 created trees with degree = 5
+[300, 200, 200, 100, 200, 200, 100, 200, 100, 200, 200, 100, 200, 100, 200, 100, 200, 200, 100, 200, 100, 200, 100, 200, 200, 100, 200, 100, 200, 200, 100, 200, 100, 200, 200, 100, 200, 100, 200, 100, 200, 100, 200, 200, 100, 200, 100, 200, 200, 200]
+Sum = 8200 nanoseconds
+
+Average search time = 844 nanoseconds
+Average delete time = 4752 nanoseconds
+Average delete time = 164 nanoseconds
